@@ -1,108 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PhD Student in Computational & Applied Mathemaatics">
-    <title>Samit Ghosh - PhD Student in Mathematics & Data Science</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Samit Ghosh — PhD Candidate in Computational & Applied Mathematics at Old Dominion University, researching machine learning, statistical modeling, and optimization.">
+<title>Samit Ghosh — PhD Candidate, Mathematics &amp; Data Science</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Samit Ghosh</h1>
-        <h2>PhD Candidate</h2> 
-        <h3> Data Science | Applied Mathematics| Machine Learning | Optimization | Statiscal Modeling </h3>
-        <p>Researching innovative approaches to model a system based on data...</p>
-    </header>
 
-    <nav>
-    <ul>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="research.html">Research</a></li> <!-- Link to research.html -->
-        <li><a href="experience.html">Teaching</a></li>
-        <!--<li><a href="#innovation">Innovation</a></li>-->
-        <!--<li><a href="CV.html">CV/Resume</a></li>-->
-        <li><a href="#cv">CV/Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-   </nav>
+<nav class="site-nav">
+    <div class="wrap">
+        <span class="brand">Samit Ghosh</span>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#papers">Papers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-<section id="about">
-    <div class="about-container">
-
-
-        <!-- LEFT SIDE -->
-        <div class="left-side">
-            <h3>About Me</h3>
-            <p>I am a doctoral student in the Department of Mathematics &amp; Statistics at Old Dominion University (ODU), concentrating in Mathematics in Data Science. My academic journey began at the University of Dhaka, Bangladesh, where I earned my Bachelor’s degree in Mathematics. I later completed my M.S. in Data Science at ODU, which strengthened my foundation in statistical analysis, computational methods, and applied machine learning.</p> 
-<p>My research focuses on machine learning, statistical modeling, and the optimization of ML algorithms. I am particularly interested in developing efficient, interpretable, and scalable computational approaches that bridge theoretical mathematics with real-world data-driven applications.</p>
-<p>I am passionate about leveraging mathematical insights to improve algorithmic performance and contribute to advancing data science methodologies. I enjoy collaborative research, interdisciplinary problem-solving, and exploring innovative techniques at the intersection of mathematics and modern data analytics.</p>
-<p>Let’s explore the data and innovations in these fields. If something is on your mind, feel free to connect with me to discuss research, collaboration opportunities, or anything related to data science and applied mathematics.</p>
-
-<!-- CV/Resume link -->
-    <p id="cv">You can download my CV <a href="SamitGhosh_CV.pdf" target="_blank">here</a>.</p>
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+    <div class="wrap">
+        <div class="hero-photo">
+            <img src="Profile.jpg" alt="Portrait of Samit Ghosh">
         </div>
-
-        <!-- RIGHT SIDE -->
-        <div class="right-side">
-            <img src="Profile.jpg" class="profile-pic" alt="Profile Picture of Samit K. Ghosh">
-
-            <div class="social-icons">
-                <a href="https://scholar.google.com/citations?user=d_TgIVkAAAAJ&hl=en&oi=ao" target="_blank">
-                    <img src="google_scholar.jpg" alt="Google Scholar">
-                </a>
-
-                <a href="https://github.com/samitgit" target="_blank">
-                    <img src="git_hub.png" alt="GitHub">
-                </a>
-
-                <a href="YOUR_RESEARCHGATE_LINK" target="_blank">
-                    <img src="RG.jpg" alt="ResearchGate">
-                </a>
+        <div class="hero-text">
+            <h1>Samit Ghosh</h1>
+            <p class="hero-tagline">Bridging mathematics and data to build models that hold up in the real world.</p>
+            <p class="hero-sub">PhD Candidate in Computational &amp; Applied Mathematics at Old Dominion University, concentrating in Mathematics in Data Science. My work sits at the intersection of statistical modeling, machine learning, and optimization.</p>
+            <div class="hero-cta">
+                <a class="btn btn-primary" href="SamitGhosh_CV.pdf" target="_blank">Download CV</a>
+                <a class="btn btn-ghost" href="#contact">Get in touch</a>
             </div>
         </div>
+    </div>
+</header>
 
+<!-- ===================== STATS ===================== -->
+<div class="stats">
+    <div class="wrap">
+        <div>
+            <div class="stat-num">3</div>
+            <div class="stat-label">Active Research Projects</div>
+        </div>
+        <div>
+            <div class="stat-num">8</div>
+            <div class="stat-label">Courses Taught / TA'd</div>
+        </div>
+        <div>
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Years Teaching at ODU</div>
+        </div>
+        <div>
+            <div class="stat-num">2</div>
+            <div class="stat-label">Countries Studied In</div>
+        </div>
+    </div>
+</div>
 
-
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
+    <div class="wrap">
+        <h2 class="section-title">About Me</h2>
+        <p>I am a doctoral student in the Department of Mathematics &amp; Statistics at Old Dominion University (ODU), concentrating in Mathematics in Data Science. My academic journey began at the University of Dhaka, Bangladesh, where I earned my Bachelor's degree in Mathematics. I later completed my M.S. in Data Science at ODU, which strengthened my foundation in statistical analysis, computational methods, and applied machine learning.</p>
+        <p>My research focuses on machine learning, statistical modeling, and the optimization of ML algorithms. I am particularly interested in developing efficient, interpretable, and scalable computational approaches that bridge theoretical mathematics with real-world data-driven applications.</p>
+        <p>I am passionate about leveraging mathematical insights to improve algorithmic performance and contribute to advancing data science methodologies. I enjoy collaborative research, interdisciplinary problem-solving, and exploring innovative techniques at the intersection of mathematics and modern data analytics.</p>
+        <p>Let's explore the data and innovations in these fields. If something is on your mind, feel free to connect with me to discuss research, collaboration opportunities, or anything related to data science and applied mathematics.</p>
     </div>
 </section>
 
+<!-- ===================== RESEARCH ===================== -->
+<section id="research">
+    <div class="wrap">
+        <h2 class="section-title">Research Areas</h2>
+        <div class="card-grid">
+            <div class="research-card">
+                <img src="data_science.png" alt="Data Science">
+                <div class="research-card-body">
+                    <h4>Data Science</h4>
+                    <p><a href="https://towardsdatascience.com/latest/" target="_blank">Towards Data Science &rarr;</a></p>
+                </div>
+            </div>
+            <div class="research-card">
+                <img src="appmath.jpg" alt="Applied Mathematics">
+                <div class="research-card-body">
+                    <h4>Applied Mathematics</h4>
+                    <p><a href="https://www.siam.org" target="_blank">SIAM &rarr;</a></p>
+                </div>
+            </div>
+            <div class="research-card">
+                <img src="ML.jpg" alt="Machine Learning">
+                <div class="research-card-body">
+                    <h4>Machine Learning</h4>
+                    <p><a href="https://ai.google" target="_blank">Google AI &rarr;</a></p>
+                </div>
+            </div>
+            <div class="research-card">
+                <img src="statmodel.png" alt="Statistical Modelling">
+                <div class="research-card-body">
+                    <h4>Statistical Modelling</h4>
+                    <p><a href="https://statmodeling.stat.columbia.edu" target="_blank">Gelman Blog &rarr;</a></p>
+                </div>
+            </div>
+            <div class="research-card">
+                <img src="algo.jpg" alt="Algorithm Development">
+                <div class="research-card-body">
+                    <h4>Algorithm Development</h4>
+                    <p><a href="https://news.mit.edu/topic/algorithms" target="_blank">MIT News &rarr;</a></p>
+                </div>
+            </div>
+            <div class="research-card">
+                <img src="opt.png" alt="Optimization Techniques">
+                <div class="research-card-body">
+                    <h4>Optimization Techniques</h4>
+                    <p><a href="https://www.mathopt.org/?nav=optima_newsletterS" target="_blank">Optimization Research &rarr;</a></p>
+                </div>
+            </div>
+        </div>
 
+        <div class="projects-list">
+            <h3 class="section-title" style="font-size:19px; margin-bottom:10px;">Ongoing Projects</h3>
 
+            <div class="project-item">
+                <h4>EPGP Surrogates for Option Pricing</h4>
+                <p>Particular solutions for the Black&ndash;Scholes equation. <em>[Mathematical Finance]</em></p>
+                <div class="project-refs">
+                    <a href="https://arxiv.org/abs/2012.06211" target="_blank">Deep Parametric PDE Method</a>
+                    <a href="https://arxiv.org/abs/2007.00937" target="_blank">Differential NNs for Black&ndash;Scholes</a>
+                    <a href="https://huggingface.co/papers/2405.05780" target="_blank">NN Learning of Black&ndash;Scholes</a>
+                </div>
+            </div>
 
-    <section id="featured-publication">
-        <h3>Featured Publication</h3>
-        <article>
-            <h4>1. Obed Amo, <u>Samit Ghosh</u>, Markus Lange-Hegermann, Bogdan Raiţă, and Michael Pokojovy. "Comparing EPGP Surrogates and Finite Elements Under Degree-of-Freedom Parity." <em>Journal/Conference</em></h4>
-            <p>This article explores We present a new benchmarking study comparing a boundary-constrained Ehrenpreis–Palamodov Gaussian Process (B-EPGP) surrogate with a classical finite element method combined with Crank–Nicolson time stepping (CN-FEM) for solving the two-dimensional wave equation with homogeneous Dirichlet boundary conditions. The B-EPGP construction leverages exponential-polynomial bases derived from the characteristic variety to enforce the PDE and boundary conditions exactly and employs penalized least squares to estimate the coefficients. To ensure fairness across paradigms, we introduce a degrees-of-freedom (DoF) matching protocol. Under matched DoF, B-EPGP consistently attains lower space-time L2-error and maximum-in-time L2-error in space than CN-FEM, improving accuracy by roughly two orders of magnitude.</p>
-            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=d_TgIVkAAAAJ&citation_for_view=d_TgIVkAAAAJ:d1gkVwhDpl0C" target="_blank">Read full paper</a>
-            <h4>2. <u>Samit Ghosh</u>, Michael Pokojovy, and Guohui Song. "On the convergence of Least Trimmed Squares." <em>Journal/Conference</em></h4>
-            <p>This article explores The least trimmed squares (LTS) method is a popular alternative to ordinary least squares (OLS) commonly used to robustly fit linear regression models in the presence of outliers, heavy tails or other model violations. While a closed-form solution exists for the quadratic optimization problem underlying the OLS estimator, the mixed optimization problem associated with the LTS estimator is typically solved by iteratively applying the so-called concentration or C-step to a set of properly selected warm starts. Although the C-step is known to monotonically reduce the objective function leading to convergence in a finite number of steps, no error estimation mechanisms presently exist in the literature. By studying an equivalent formulation of the problem over a convex domain, we prove that the conventional LTS iteration is a special case of the well-known Frank-Wolfe gradient descent method. This furnishes an $\mathcal{O}(1/t)$ convergence of the LTS algorithm to a local minimum of the trimmed sum of squares objective function with respect to a suitable Bregman divergence and provides a convenient error quantification tool.</p>
-            <a href="LTS_Estimator.pdf" target="_blank">Read full paper</a>
-            <h4>3. <u>Samit Ghosh</u> (2025). "EQUILIBRIUM DYNAMICS IN BIASED INVERSE-PROPORTIONAL GROUP
-ATTRACTION MODELS" <em>Journal/Conference</em></h4>
-            <p>This article explores We propose a dynamical model for group formation and switching behavior in systems where each group competes for members through attraction functions that are inversely proportional to their current sizes. This attraction is modulated by group-specific bias terms, which can reflect social, economic, or reputational advantages. New entrants choose groups probabilistically based on these weighted attraction scores. We derive the conditions under which the system converges to a stationary equilibrium, where group proportions remain stable over time. The model exhibits rich nonlinear behavior, especially under varying bias strengths and inverse preference intensities. We analyze equilibrium conditions both theoretically and
-via simulations.</p>
-            <a href="Inverse_Bias.pdf" target="_blank">Read full paper</a>
-        </article>
-    </section>
+            <div class="project-item">
+                <h4>Frank&ndash;Wolfe for Deep Neural Network Optimization</h4>
+                <p>Exploring the applicability of Frank&ndash;Wolfe methods to DNN training. <em>[Optimization / Deep Learning]</em></p>
+                <div class="project-refs">
+                    <a href="https://www.catalyzex.com/paper/deep-frank-wolfe-for-neural-network" target="_blank">Deep Frank&ndash;Wolfe</a>
+                    <a href="https://link.springer.com/article/10.1365/s13291-023-00275-x" target="_blank">Short Introduction</a>
+                    <a href="https://link.springer.com/chapter/10.1007/978-981-96-0668-9_21" target="_blank">Soft Margin Boosting</a>
+                </div>
+            </div>
 
-<section id="visitor-map" style="text-align:center; margin: 40px 0;">
-    <h3>Visitors Around the World</h3>
-    <a href="https://clustrmaps.com" title="Visitor Map" target="_blank">
-        <img src="https://www.clustrmaps.com/map_v2.png?cl=ff0000&w=a" 
-             width="350" 
-             height="200" 
-             style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    </a>
+            <div class="project-item">
+                <h4>Tunable Activation Functions for Fraud Detection</h4>
+                <p>Optimizing fraud detection performance in financial models. <em>[Machine Learning]</em></p>
+                <div class="project-refs">
+                    <a href="https://www.nature.com/articles/s41598-025-15783-2" target="_blank">Fraud Detection with ML</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-    <footer>
-        <p>&copy; 2024 Samit Ghosh | All rights reserved.</p>
-    </footer>
+<!-- ===================== EDUCATION ===================== -->
+<section id="education">
+    <div class="wrap">
+        <h2 class="section-title">Education</h2>
 
+        <div class="edu-item">
+            <img src="ODU_logo.png" alt="Old Dominion University logo">
+            <div>
+                <h4>PhD in Computational and Applied Mathematics <span style="color:var(--ink-light); font-weight:400;">(in progress)</span></h4>
+                <p>Concentration in Mathematics in Data Science &middot; Dept. of Mathematics and Statistics</p>
+                <p>Old Dominion University &middot; Norfolk, Virginia, USA</p>
+            </div>
+        </div>
+
+        <div class="edu-item">
+            <img src="ODU_logo.png" alt="Old Dominion University logo">
+            <div>
+                <h4>M.S. in Data Science</h4>
+                <p>Dept. of Mathematics and Statistics</p>
+                <p>Old Dominion University &middot; Norfolk, Virginia, USA</p>
+            </div>
+        </div>
+
+        <div class="edu-item">
+            <img src="DU.png" alt="University of Dhaka logo">
+            <div>
+                <h4>M.Sc. in Mathematics</h4>
+                <p>Dept. of Mathematics</p>
+                <p>University of Dhaka &middot; Dhaka, Bangladesh</p>
+            </div>
+        </div>
+
+        <div class="edu-item">
+            <img src="DU.png" alt="University of Dhaka logo">
+            <div>
+                <h4>B.Sc. in Mathematics</h4>
+                <p>Dept. of Mathematics</p>
+                <p>University of Dhaka &middot; Dhaka, Bangladesh</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== TEACHING ===================== -->
+<section id="teaching">
+    <div class="wrap">
+        <h2 class="section-title">Teaching</h2>
+        <div class="timeline">
+            <div class="timeline-row">
+                <div class="timeline-when">Spring 2025</div>
+                <div class="timeline-what">
+                    <h4>Applied Mathematics (MATH550) &mdash; Lecturer</h4>
+                    <p>Delivered lectures on differential equations, linear algebra, and optimization techniques for graduate students.</p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-when">Spring 2025</div>
+                <div class="timeline-what">
+                    <h4>Calculus II (MATH102) &mdash; Teaching Assistant</h4>
+                    <p>Assisted students in understanding integral calculus, sequences, series, and multivariable concepts.</p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-when">Fall 2024</div>
+                <div class="timeline-what">
+                    <h4>Machine Learning for Data Science (DS600) &mdash; Teaching Assistant</h4>
+                    <p>Guided students on neural networks, model evaluation, and practical ML assignments in Python.</p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-when">Fall 2024</div>
+                <div class="timeline-what">
+                    <h4>Introduction to Data Science (DS101) &mdash; Teaching Assistant</h4>
+                    <p>Guided students in Python programming, data visualization, and basic statistical analysis.</p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-when">Spring 2023</div>
+                <div class="timeline-what">
+                    <h4>Advanced Statistics (STAT520) &mdash; Teaching Assistant</h4>
+                    <p>Assisted in teaching probability theory, statistical inference, and regression modeling to graduate students.</p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-when">Spring 2023</div>
+                <div class="timeline-what">
+                    <h4>Calculus I (MATH101) &mdash; Teaching Assistant</h4>
+                    <p>Supported students in limits, derivatives, and fundamental calculus concepts.</p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-when">Fall 2022</div>
+                <div class="timeline-what">
+                    <h4>Numerical Methods (MATH510) &mdash; Teaching Assistant</h4>
+                    <p>Helped students implement numerical algorithms and solve computational problems in applied mathematics.</p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-when">Fall 2022</div>
+                <div class="timeline-what">
+                    <h4>Linear Algebra (MATH201) &mdash; Teaching Assistant</h4>
+                    <p>Assisted students with vector spaces, matrices, and linear transformations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== PAPERS / NOTES ===================== -->
+<section id="papers">
+    <div class="wrap">
+        <h2 class="section-title">Papers &amp; Working Notes</h2>
+        <div class="paper-item">
+            <div>
+                <h4>LTS Estimator</h4>
+                <p>Working paper / notes &middot; PDF</p>
+            </div>
+            <a class="btn btn-ghost" href="LTS_Estimator.pdf" target="_blank">View PDF</a>
+        </div>
+        <div class="paper-item">
+            <div>
+                <h4>Inverse Bias</h4>
+                <p>Working paper / notes &middot; PDF</p>
+            </div>
+            <a class="btn btn-ghost" href="Inverse_Bias.pdf" target="_blank">View PDF</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact">
+    <div class="wrap">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p>Have questions, collaboration ideas, or just want to connect? Reach out &mdash; I'd love to hear from you.</p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:samit.ghosh.du@gmail.com">samit.ghosh.du@gmail.com</a></p>
+                <div class="social-row">
+                    <a href="https://scholar.google.com/citations?user=d_TgIVkAAAAJ&hl=en&oi=ao" target="_blank" aria-label="Google Scholar"><img src="google_scholar.jpg" alt="Google Scholar"></a>
+                    <a href="https://github.com/samitgit" target="_blank" aria-label="GitHub"><img src="git_hub.png" alt="GitHub"></a>
+                    <a href="https://x.com/Ghosh_Samit13" target="_blank" aria-label="X"><img src="X.png" alt="X"></a>
+                    <a href="https://www.linkedin.com/in/samitgkghosh" target="_blank" aria-label="LinkedIn"><img src="Linkedin.png" alt="LinkedIn"></a>
+                    <a href="YOUR_RESEARCHGATE_LINK" target="_blank" aria-label="ResearchGate"><img src="RG.jpg" alt="ResearchGate"></a>
+                </div>
+            </div>
+
+            <form class="contact-form" action="mailto:samit.ghosh.du@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Samit Ghosh. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
