@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Samit K. Ghosh</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        .research-card img {
+            height: 150px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .news-popup {
+            display: none;
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 260px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 999;
+        }
+
+        .link-container:hover .news-popup {
+            display: block;
+        }
+
+        .link-container {
+            position: relative;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Research</h1>
+        <p>Explore my research areas in mathematics and data science.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#research">Research Areas</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- ✔ REPLACED SECTION BELOW -->
+    <section id="research" class="container mt-4">
+
+        <h3 class="text-center mb-4 animate__animated animate__fadeInDown">Research Areas</h3>
+
+        <div class="row g-4">
+
+            <!-- Data Science -->
+            <div class="col-md-4">
+                <div class="card research-card shadow animate__animated animate__zoomIn">
+                    <img src="data_science.png" alt="Data Science">
+                    <div class="card-body">
+                        <h5>Data Science</h5>
+                        <div class="link-container">
+                            <a href="https://towardsdatascience.com/latest/" target="_blank">Towards Data Science</a>
+                            <div class="news-popup">Data Science roles expected to grow 35% by 2030.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Applied Mathematics -->
+            <div class="col-md-4">
+                <div class="card research-card shadow animate__animated animate__zoomIn animate__delay-1s">
+                    <img src="appmath.jpg" alt="Applied Mathematics">
+                    <div class="card-body">
+                        <h5>Applied Mathematics</h5>
+                        <div class="link-container">
+                            <a href="https://www.siam.org" target="_blank">SIAM</a>
+                            <div class="news-popup">Latest News: Breakthroughs in numerical simulation announced.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Machine Learning -->
+            <div class="col-md-4">
+                <div class="card research-card shadow animate__animated animate__zoomIn animate__delay-2s">
+                    <img src="ML.jpg" alt="Machine Learning">
+                    <div class="card-body">
+                        <h5>Machine Learning</h5>
+                        <div class="link-container">
+                            <a href="https://ai.google" target="_blank">Google AI</a>
+                            <div class="news-popup">Latest News: Google announces advancements in generative AI.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistical Modelling -->
+            <div class="col-md-4">
+                <div class="card research-card shadow animate__animated animate__zoomIn animate__delay-3s">
+                    <img src="statmodel.png" alt="Statistical Modelling">
+                    <div class="card-body">
+                        <h5>Statistical Modelling</h5>
+                        <div class="link-container">
+                            <a href="https://statmodeling.stat.columbia.edu" target="_blank">Gelman Blog</a>
+                            <div class="news-popup">Latest News: Bayesian models gaining rapid adoption.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Algorithm Development -->
+            <div class="col-md-4">
+                <div class="card research-card shadow animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="algo.jpg" alt="Algorithm Development">
+                    <div class="card-body">
+                        <h5>Algorithm Development</h5>
+                        <div class="link-container">
+                            <a href="https://news.mit.edu/topic/algorithms" target="_blank">Algorithm</a>
+                            <div class="news-popup">Latest News: New optimization algorithms reduce computation by 40%.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optimization Techniques -->
+            <div class="col-md-4">
+                <div class="card research-card shadow animate__animated animate__zoomIn animate__delay-5s">
+                    <img src="opt.png" alt="Optimization Techniques">
+                    <div class="card-body">
+                        <h5>Optimization Techniques</h5>
+                        <div class="link-container">
+                            <a href="https://www.mathopt.org/?nav=optima_newsletterS" target="_blank">Optimization Research</a>
+                            <div class="news-popup">Latest News: Global optimization methods outperform classical techniques.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Your Ongoing Projects (unchanged) -->
+        <h3 id="projects" class="mt-5">Ongoing Projects:</h3>
+
+    <!-- Project 1 -->
+    <p>
+        <strong>Project 1:</strong> Implementing EPGP surrogates for Option Pricing: Particular Solutions for the Black-Scholes equation. 
+        [Mathematical Finance].<br>
+        <em>References:</em> 
+        <a href="https://arxiv.org/abs/2012.06211" target="_blank">The Deep Parametric PDE Method: Application to Option Pricing</a>, 
+        <a href="https://arxiv.org/abs/2007.00937" target="_blank">Differential Neural Networks for Black-Scholes PDE</a>, 
+        <a href="https://huggingface.co/papers/2405.05780" target="_blank">Neural Network Learning of Black-Scholes Equation</a>
+    </p>
+
+    <!-- Project 2 -->
+    <p>
+        <strong>Project 2:</strong> Exploring the applicability of Frank-Wolfe for Deep Neural Network optimization. 
+        [Optimization / Deep Learning].<br>
+        <em>References:</em> 
+        <a href="https://www.catalyzex.com/paper/deep-frank-wolfe-for-neural-network" target="_blank">Deep Frank-Wolfe for Neural Network Optimization</a>, 
+        <a href="https://link.springer.com/article/10.1365/s13291-023-00275-x" target="_blank">The Frank-Wolfe Algorithm: A Short Introduction</a>, 
+        <a href="https://link.springer.com/chapter/10.1007/978-981-96-0668-9_21" target="_blank">Soft Margin Boosting as Frank-Wolfe Algorithms</a>
+    </p>
+
+    <!-- Project 3 -->
+    <p>
+        <strong>Project 3:</strong> Optimizing Fraud Detection Performance with Tunable Activation Functions. 
+        [Machine Learning].<br>
+        <em>References:</em> 
+        <a href="https://www.nature.com/articles/s41598-025-15783-2" target="_blank">Fraud Detection in Financial Markets Using Machine Learning</a>
+    </p>
+</section>
+
+
+
+    <footer>
+        <p>&copy; 2024 Samit Ghosh | All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

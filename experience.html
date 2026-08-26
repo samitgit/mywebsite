@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching | Samit Ghosh</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Timeline container */
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        /* Each timeline item */
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        /* Left side: time frame */
+        .timeline-left {
+            flex: 0 0 150px; /* fixed width */
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        /* Right side: course and description */
+        .timeline-right {
+            flex: 1;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+
+        .timeline-right h4 {
+            margin-top: 0;
+            color: #34495e;
+        }
+
+        .timeline-right p {
+            margin: 3px 0;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teaching</h1>
+        <p>Courses and teaching experience in mathematics and data science.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#graduate">Graduate Courses</a></li>
+            <li><a href="#undergraduate">Undergraduate Courses</a></li>
+        </ul>
+    </nav>
+
+    <section id="teaching">
+        <h2>Teaching Experience</h2>
+
+        <!-- Graduate Courses -->
+        <h3 id="graduate">Graduate Courses</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-left">Spring 2025</div>
+                <div class="timeline-right">
+                    <h4>Applied Mathematics (MATH550)</h4>
+                    <p><strong>Role:</strong> Lecturer</p>
+                    <p><strong>Description:</strong> Delivered lectures on differential equations, linear algebra, and optimization techniques for graduate students.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-left">Fall 2024</div>
+                <div class="timeline-right">
+                    <h4>Machine Learning for Data Science (DS600)</h4>
+                    <p><strong>Role:</strong> Teaching Assistant</p>
+                    <p><strong>Description:</strong> Guided students on neural networks, model evaluation, and practical ML assignments in Python.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-left">Spring 2023</div>
+                <div class="timeline-right">
+                    <h4>Advanced Statistics (STAT520)</h4>
+                    <p><strong>Role:</strong> Teaching Assistant</p>
+                    <p><strong>Description:</strong> Assisted in teaching probability theory, statistical inference, and regression modeling to graduate students.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-left">Fall 2022</div>
+                <div class="timeline-right">
+                    <h4>Numerical Methods (MATH510)</h4>
+                    <p><strong>Role:</strong> Teaching Assistant</p>
+                    <p><strong>Description:</strong> Helped students implement numerical algorithms and solve computational problems in applied mathematics.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Undergraduate Courses -->
+        <h3 id="undergraduate">Undergraduate Courses</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-left">Spring 2025</div>
+                <div class="timeline-right">
+                    <h4>Calculus II (MATH102)</h4>
+                    <p><strong>Role:</strong> Teaching Assistant</p>
+                    <p><strong>Description:</strong> Assisted students in understanding integral calculus, sequences, series, and multivariable concepts.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-left">Fall 2024</div>
+                <div class="timeline-right">
+                    <h4>Introduction to Data Science (DS101)</h4>
+                    <p><strong>Role:</strong> Teaching Assistant</p>
+                    <p><strong>Description:</strong> Guided students in Python programming, data visualization, and basic statistical analysis.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-left">Spring 2023</div>
+                <div class="timeline-right">
+                    <h4>Calculus I (MATH101)</h4>
+                    <p><strong>Role:</strong> Teaching Assistant</p>
+                    <p><strong>Description:</strong> Supported students in limits, derivatives, and fundamental calculus concepts.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-left">Fall 2022</div>
+                <div class="timeline-right">
+                    <h4>Linear Algebra (MATH201)</h4>
+                    <p><strong>Role:</strong> Teaching Assistant</p>
+                    <p><strong>Description:</strong> Assisted students with vector spaces, matrices, and linear transformations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Samit Ghosh | All rights reserved.</p>
+    </footer>
+</body>
+</html>
